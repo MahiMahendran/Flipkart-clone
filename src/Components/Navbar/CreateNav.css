@@ -1,0 +1,78 @@
+.Nav_contianer{
+    height: 56px;
+    background-color: var(--flipkart-lightblue);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+}
+.Nav_title{
+    width: 100%;
+    align-items: center;
+    margin: 15px 124px;   
+}
+.Nav_logo{
+    width: 80px;
+}
+.Nav_search{
+    width: 80%;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    margin-left: -82rem;
+    margin-right: -15rem;
+    outline: none;
+}
+.Nav_searchbox{
+    width: 35%;
+    height: 30px;
+    outline: none;
+}
+.Nav_searchicon{
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 26px;
+    cursor: pointer;
+    margin-left: -2rem;
+}
+.Nav_login{
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: -27rem;
+    text-align: center;
+    color: var(--flipkart-lightblue) ;
+}
+.Nav_btn:hover{
+    background-color: var(--flipkart-lightblue);
+    color: white;
+}
+.Nav_btn{
+    background-color: white;
+    height: 25px;
+    text-decoration: none;
+    padding: 0 20px;
+    border: none;
+    text-align: center;
+    font-size: small;
+}
+.Nav_seller{
+    margin: 15px 0 0 22px;
+}
+.Nav_sellerlink{
+    color: white;
+    text-decoration: none;
+}.Nav_more{
+    margin-top: 15px;
+    margin-left: 2rem;
+    cursor: pointer;
+
+}
+.Nav_cart{
+    margin-top: 15px;
+}
+.Nav_cartLink{
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+}

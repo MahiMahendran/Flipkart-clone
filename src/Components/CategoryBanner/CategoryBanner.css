@@ -1,0 +1,32 @@
+.Categorybanner{
+    padding: 25px;
+    width: fit-content;
+    height: 100%;
+    max-height:366px;
+    background-color: white;
+    text-align: center;
+}
+.Categorybanner_img{
+    width: 200px;
+    height: 170px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.Categorybanner_title{
+    padding: 15px 0;
+    font-size: 15px;
+    color: black;
+}
+.Categorybanner_shopnow{
+    color: rgb(7, 172, 7);
+    font-weight: 300;
+}
+.Categorybanner_brand{
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.Categorybanner_img:hover{
+    transform: scale(1.1);
+}
